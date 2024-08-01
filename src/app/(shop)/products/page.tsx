@@ -14,7 +14,7 @@ export default async function Products() {
         <ul>
             { products.map(product =>
                 <li key={product.id}>
-                    <img src={product.url} alt={product.title}/>
+                    <img width={200} height={200} src={product.url} alt={product.title}/>
                 </li>
              )
 
