@@ -6,7 +6,8 @@ export default function DashboardLayout({
     children: React.ReactNode
   }) {
     return (
-      <section className={styles.dashboard}>
+      <section >
+        <p className={styles.dashboard}>Paragraph to check styles RED</p>
         {children}
       </section>
     )
