@@ -6,6 +6,8 @@ export default function Page() {
     <>
       <h1>Hello, Next.js!</h1>
       <Link href="/dashboard">Dashboard</Link>
+      <div></div>
+      <Link href="/video">Video</Link>
     </>
   )
 }
