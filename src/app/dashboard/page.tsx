@@ -6,7 +6,7 @@ export default function Page() {
 
         <nav> 
             <a href="https://www.w3schools.com/html/">HTML</a> |
-            <a href="/css/">CSS</a> |
+            <a href="https://www.w3schools.com/css/default.asp">CSS</a> |
             <a href="/js/">JavaScript</a> |
             <a href="/python/">Python</a>
         </nav>
