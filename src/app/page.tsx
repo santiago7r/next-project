@@ -1,4 +1,4 @@
-import { Nerko_One, Roboto, Sevillana } from "next/font/google";
+import { Nerko_One, Roboto, Sevillana, Yarndings_12 } from "next/font/google";
 import Link from "next/link";
 
 const roboto = Roboto({
@@ -13,7 +13,10 @@ const sevillana = Sevillana({
   subsets: ['latin'],
   weight: ['400']
 })
-
+const yarndings_12 = Yarndings_12({
+  subsets: ['latin'],
+  weight: ['400']
+})
 
 export default function Page() {
   return (
@@ -22,6 +25,8 @@ export default function Page() {
       <Link className={nerko_one.className} href="/dashboard">Dashboard</Link>
       <div></div>
       <Link className={sevillana.className} href="/video">Video</Link>
+      <div></div>
+      <Link className={yarndings_12.className} href="/auth">Auth</Link>
     </>
   )
 }
