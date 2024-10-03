@@ -5,7 +5,7 @@ export default function Page() {
         <h1>Hello, Dashboard Page!</h1>
 
         <nav> 
-            <a href="/html/">HTML</a> |
+            <a href="https://www.w3schools.com/html/">HTML</a> |
             <a href="/css/">CSS</a> |
             <a href="/js/">JavaScript</a> |
             <a href="/python/">Python</a>
